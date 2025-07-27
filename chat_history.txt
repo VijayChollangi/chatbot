@@ -22,3 +22,11 @@ Bot: I'm a simple chatbot made in Python.
 You: bye
 Bot: Goodbye! 👋
 
+[2025-07-27 16:23:08]
+You: hi
+Bot: Hello! How can I help you today?
+
+[2025-07-27 16:23:24]
+You: bye
+Bot: Goodbye! 👋
+
