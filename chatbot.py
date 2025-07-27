@@ -4,14 +4,13 @@ print("🤖 Simple Chatbot Ready! Type 'bye' to quit.")
 
 while True:
     user = input("You: ").lower()
+    time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # ⏰ Get current timestamp
 
     if user == "bye":
         bot_response = "Goodbye! 👋"
         print("Bot:", bot_response)
-        # ✅ Save final message with timestamp
         with open("chat_history.txt", "a") as f:
-            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            f.write(f"[{timestamp}]\nYou: {user}\nBot: {bot_response}\n\n")
+            f.write(f"[{time_now}] You: {user}\n[{time_now}] Bot: {bot_response}\n\n")
         break
 
     elif "hello" in user or "hi" in user:
@@ -27,7 +26,6 @@ while True:
 
     print("Bot:", bot_response)
 
-    # ✅ Save conversation with timestamp
+    # ✅ Save with timestamp
     with open("chat_history.txt", "a") as f:
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        f.write(f"[{timestamp}]\nYou: {user}\nBot: {bot_response}\n\n")
+        f.write(f"[{time_now}] You: {user}\n[{time_now}] Bot: {bot_response}\n\n")

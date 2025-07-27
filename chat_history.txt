@@ -30,3 +30,48 @@ Bot: Hello! How can I help you today?
 You: bye
 Bot: Goodbye! 👋
 
+[2025-07-27 17:00:08]
+You: hi
+Bot: Hello! How can I help you today?
+
+[2025-07-27 17:00:24]
+You: bye
+Bot: Goodbye! 👋
+
+[2025-07-27 17:01:32]
+You: hi
+Bot: Hello! How can I help you today?
+
+[2025-07-27 17:01:38]
+You: he;llo
+Bot: Sorry, I didn't understand that.
+
+[2025-07-27 17:01:39]
+You: vfdv
+Bot: Sorry, I didn't understand that.
+
+[2025-07-27 17:02:02]
+You: bye
+Bot: Goodbye! 👋
+
+You: erfre
+Bot: Sorry, I didn't understand that.
+
+You: fcef
+Bot: Sorry, I didn't understand that.
+
+You: fecfe
+Bot: Sorry, I didn't understand that.
+
+You: 
+Bot: Sorry, I didn't understand that.
+
+You: 
+Bot: Sorry, I didn't understand that.
+
+You: 
+Bot: Sorry, I didn't understand that.
+
+You: bye
+Bot: Goodbye! 👋
+
